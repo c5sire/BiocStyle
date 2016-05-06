@@ -5,7 +5,7 @@ body, td {
 }
 
 body {
-  max-width: 800px;
+  /*max-width: 800px;*/
   margin: 0 auto;
   padding: 1em 1em 2em;
   line-height: 20px;
@@ -22,7 +22,7 @@ div#TOC li {
 
 /* element spacing */
 
-p, pre { 
+p, pre {
   margin: 0em 0em 1em;
 }
 
@@ -39,7 +39,7 @@ tt, code, pre {
    font-family: 'DejaVu Sans Mono', 'Droid Sans Mono', 'Lucida Console', Consolas, Monaco, monospace;
 }
 
-h1, h2, h3, h4, h5, h6 { 
+h1, h2, h3, h4, h5, h6 {
   font-family: Helvetica, Arial, sans-serif;
   margin: 1.2em 0em 0.6em 0em;
   font-weight: bold;
@@ -62,7 +62,7 @@ h1 {
 }
 
 h2 {
-  font-size: 130%;  
+  font-size: 130%;
 }
 
 h1, h2, h3 {
@@ -95,7 +95,7 @@ pre code {
   border: 1px #aaa dashed;
   background-color: white;
   display: block;
-  padding: 1em;  
+  padding: 1em;
   color: #111;
   overflow-x: inherit;
 }
@@ -111,7 +111,7 @@ pre[class] code {
 }
 
 /* formatting of inline code */
-code { 
+code {
   background-color: transparent;
   color: #87b13f;
   font-size: 92%;
